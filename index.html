@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./modal.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Random game</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Random Game</h1>
+      <input class="restart-button" type="button" value="Restart Game">
+    </header>
+    
+    <div class="score">
+      <p class="score-player">Player: 0</p>
+      <p class="score-computer">Computer: 0</p>
+    </div>
+
+    <div class="choices">
+      <i id="rock" class="choice fa fa-hand-rock-o fa-5x"></i>
+      <i id="scissors" class="choice fa fa-hand-scissors-o fa-5x"></i>
+      <i id="paper" class="choice fa fa-hand-paper-o fa-5x"></i>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h1>You Win!</h1>
+        <i class="choice fa fa-hand-rock-o fa-5x"></i>
+        <p>Computer chose rock</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
